@@ -8,7 +8,6 @@ TypeScript version is included for the comparison in the report (section 2.5).
 - `validator.js`           validation logic (prototypes, closures, try/catch, events)
 - `index.html`             the form; open it directly in a web browser
 - `test.js`                automated tests for the validator
-- `pitfalls.js`            small demo of dynamic typing / coercion behaviour
 - `examples/characteristics.js`  one example for each of the nine language characteristics (section 2.3)
 - `test-examples.js`       checks that every characteristic example behaves as described
 - `benchmark.js`           times the validator (execution cost, section 2.4)
@@ -26,7 +25,6 @@ From this folder:
     node test.js              # validator tests -> "All tests passed"
     node test-examples.js     # characteristic examples -> "All characteristic examples verified"
     node examples/characteristics.js   # prints the results of each example
-    node pitfalls.js          # prints coercion examples
     node benchmark.js         # prints how long 100,000 validations take (varies by computer)
     node proposal/test-proposal.js   # section 2.6 prototype -> "All proposal tests passed"
 
