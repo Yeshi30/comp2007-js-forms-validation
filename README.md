@@ -45,4 +45,4 @@ TypeScript (from the `typescript` folder):
 - Password: required, 8+ characters, one uppercase letter, one digit
 - Age: required, whole number from 18 to 120
 
-Repository: <add your GitHub link here>
+Repository: https://github.com/Yeshi30/comp2007-js-forms-validation
