@@ -1,0 +1,15 @@
+{
+  "name": "form-validation-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.test.json && node dist/test.js",
+    "bad-calls": "tsc --noEmit --strict --target ES2017 --module commonjs --skipLibCheck bad-calls.ts",
+    "checks-2-3": "tsc --noEmit --strict --target ES2017 --module commonjs --skipLibCheck section23-checks.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
